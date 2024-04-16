@@ -10,4 +10,4 @@ map("i", "jk", "<ESC>")
 -- dap
 map("n", "<leader>db", "<CMD>DapToggleBreakpoint<CR>", { desc = "Add breakpoint at line" })
 map("n", "<F5>", "<CMD>DapContinue<CR>", { desc = "Start/Continue debugging" })
-map("n", "<F4>", "<CMD>ClangdSwitchSourceHeader<CR>", { desc = "Switch source/header" })
+map("n", "gs", "<CMD>ClangdSwitchSourceHeader<CR>", { desc = "Switch source/header" })
